@@ -6,6 +6,7 @@ public class NonMetalElement extends Element{
     }
 
     public void describeElement(){
+        System.out.println("nonmetals are poor conductors");
 
     }
 }
