@@ -6,6 +6,6 @@ public abstract class MetalElement extends Element {
     }
 
     public void describeElement(){
-
+        System.out.println("metals are good conductors");
     }
 }
