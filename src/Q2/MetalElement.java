@@ -1,6 +1,6 @@
 package Q2;
 
-public abstract class MetalElement extends Element {
+public class MetalElement extends Element {
     public MetalElement(String symbol, int atomic_number, double atomic_weight) {
         super(symbol, atomic_number, atomic_weight);
     }
