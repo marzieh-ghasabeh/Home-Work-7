@@ -24,5 +24,9 @@ public abstract class Element {
     }
 
     public abstract void describeElement();
+
+    @Override
+    public String toString() {return "symbol is: " + getSymbol() + " and atomic_number is: " + getAtomic_number()
+    + " and atomic_weight is: " + getAtomic_weight();}
 }
 
