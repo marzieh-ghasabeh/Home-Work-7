@@ -6,12 +6,12 @@ public class DemoTurners2 {
         Turner page = new Page();
         Turner pancake = new Pancake();
         Turner window = new Window();
-        Turner faucet = new Faucet();
+        Turner door = new Door();
 
         leaf.turn();
         page.turn();
         pancake.turn();
         window.turn();
-        faucet.turn();
+        door.turn();
     }
 }
